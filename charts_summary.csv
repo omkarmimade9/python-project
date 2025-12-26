@@ -1,0 +1,23 @@
+Chart_ID,Chart_Title,Chart_Type,Description,Key_Metrics,Color_Scheme,Visualization_Components
+1,Average Rating by Cuisine,Bar Chart,Shows average restaurant ratings across different cuisines,Cuisine_Name|Average_Rating,Blues,X-axis: Cuisine names | Y-axis: Average ratings
+2,Rating Distribution,Histogram,Distribution of all restaurant ratings,Rating_Count|Rating_Score,Greens,Rating range 1-5 with frequency bins
+3,Price Range Distribution,Pie Chart,Proportion of restaurants across price ranges,Price_Range|Count,Reds,Slices showing each price category
+4,Restaurant Count by City,Bar Chart,Number of restaurants in each city,City_Name|Restaurant_Count,Purples,X-axis: City names | Y-axis: Count
+5,Cuisine Popularity,Pie Chart,Market share by cuisine type,Cuisine_Name|Percentage,Multi-color,Slices with percentage labels
+6,Rating vs Price Correlation,Scatter Plot,Relationship between ratings and pricing,Price|Rating,Oranges,Points showing correlation pattern
+7,Top 10 Cuisines,Horizontal Bar,Most popular cuisines by count,Cuisine_Name|Count,Cyans,Sorted bars for easy comparison
+8,Average Price by Cuisine,Bar Chart,Cost comparison across cuisine types,Cuisine_Name|Average_Price,Teal,X-axis: Cuisines | Y-axis: Average price
+9,Rating Categories,Pie Chart,Distribution of ratings (Excellent/Good/Average/Poor),Rating_Category|Percentage,Red-Green-Yellow-Orange,4 slices with category labels
+10,Cumulative Restaurant Count,Line Chart,Growth of restaurant count progression,Rank|Cumulative_Count,Dark Blue,Smooth line showing cumulative trend
+11,Price Range by City,Box Plot,Price distribution variation across cities,City_Name|Price_Values,Multi-color,Boxes showing quartiles per city
+12,Cuisine Diversity Index,Bar Chart,Number of unique cuisines per city,City_Name|Cuisine_Diversity,Greens,Horizontal bar chart
+13,Rating Trends,Line Chart,Rating trends across restaurant rankings,Restaurant_Rank|Rating,Light Blue,Progressive line trend
+14,Top Rated Cuisines,Bar Chart,Highest average rated cuisines,Cuisine_Name|Average_Rating,Gold,Sorted descending order
+15,Price Sensitivity,Scatter with Trendline,Price vs rating with trend analysis,Price|Rating|Trend,Orange-Red,Scatter points with fitted line
+16,Restaurant Distribution Heatmap,Heatmap,Cuisine popularity by city matrix,City_Name|Cuisine_Type|Count,Yellow-Green-Red,Grid showing intensity
+17,Rating Statistics Summary,Box Plot,Overall rating statistics and outliers,Min|Q1|Median|Q3|Max,Light Blue,Box with whiskers
+18,Cuisine Composition,Stacked Bar,Cuisine breakdown by city,City_Name|Cuisine_Percentage,Multi-color,Stacked horizontal bars
+19,Price Categories Analysis,Grouped Bar,Cuisine comparison within price ranges,Price_Range|Cuisine_Name|Count,Blues,Grouped bars for analysis
+20,Delivery Time Estimate,Area Chart,Average delivery time patterns,Time_Slot|Delivery_Minutes,Light Green,Filled area chart
+21,Restaurant Rating Quality Bands,Bar Chart,Quality classification distribution,Quality_Band|Count,Color-coded,Rating-based bins
+22,Cuisine-Price Heatmap,Heatmap,Average price by cuisine and city,City|Cuisine|Price,Yellow-Red,Grid intensity shows pricing
